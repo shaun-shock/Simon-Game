@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <h1 id="game-title">Simon Game Rules</h1>
+    <p>Welcome to the Simon Game! Test your memory and see how many sequences you can remember.</p>
+    <p><strong>Objective:</strong> Repeat the sequence of colors as long as you can.</p>
+    <p><strong>How to Play:</strong></p>
+    <p>1. The game will start with a single color being highlighted. Remember the color.</p>
+    <p>2. Click the same color button to repeat the sequence.</p>
+    <p>3. The game will then add one more color to the end.</p>
+    <p>4. Repeat the entire sequence by clicking the correct color buttons in the correct order.</p>
+    <p>5. Each time you successfully repeat the sequence, the game adds one more color to the sequence.</p>
+    <p>6. If you click the wrong color, the game is over, and you'll need to start again.</p>
+    <p>Try to achieve the highest level possible by correctly repeating the sequences!</p>
+    <p>Press the start button start the game and enjoy!</p>
+    <button onclick="redirectToGame()">Start Game</button>
+    
+    <script>
+        function redirectToGame() {
+            window.location.href = 'game.html';
+        }
+    </script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="game.js" charset="utf-8"></script> -->
+</body>
+</html>
